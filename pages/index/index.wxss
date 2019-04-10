@@ -1,0 +1,44 @@
+/* pages/shouxieban/shouxieban.wxss */
+/*手写板 */
+page{
+ background: #f6f6f6;
+ padding: 0;
+}
+canvas{
+display: block;
+box-sizing: border-box;
+height: calc(100% - 18px);
+flex: 1;
+margin-right: 16px;
+border: 1px solid #d0d0d0;
+margin: 5rpx;
+background: #ffffff;
+}
+.container{
+  padding: 0;
+}
+.canvaspd{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width:48px;
+  height: calc(100% - 48px);
+  margin:62px 0;
+}
+.canvaspd button{
+  font-size: 14px;
+  padding: auto 8px;
+  
+  color:#24c123; 
+  box-shadow: 0，0，0，0;
+  transform: rotate(90deg);
+
+}
+.save{
+  background-color: #24c123;
+  color:#ffffff !important;
+}
+.page-title{
+  padding-top: 16rpx;
+}

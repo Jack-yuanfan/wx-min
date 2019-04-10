@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+ <view class='btns canvaspd'>
+ <button bindtap="cleardraw">重写</button>
+ <button class='save' bindtap="setSign">保存</button>
+ </view>
+ <canvas  class="canvas" id="canvas" canvas-id="canvas" disable-scroll="true" bindtouchstart="canvasStart" bindtouchmove="canvasMove" bindtouchend="canvasEnd" touchcancel="canvasEnd" binderror="canvasIdErrorCallback"></canvas>
+
+ <!-- <image src='{{canvasimgsrc}}'></image>  -->
+
+</view>
